@@ -6,12 +6,21 @@ body {
 }
 
 .container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black; /* keep consistent with body bg */
   display: flex;
   flex-direction: row;
   justify-content: center;  /* Center horizontally */
-  align-items: flex-start;      /* Center vertically */
-  height: 100vh;            /* Full viewport height */
+  align-items: flex-start;  /* align items at top */
+  padding: 1rem 0;          /* add vertical padding for height */
+  z-index: 1000;            /* stay on top */
+  box-sizing: border-box;   /* include padding in width */
+  height: auto;             /* remove full viewport height */
 }
+
 
 .radio-wrapper {
   position: relative;
@@ -239,36 +248,36 @@ body {
 
 
 .title {
-  position: absolute;
+  position: relative; /* or remove position altogether */
   color: white;
-  text-align: center; /* Center the text horizontally */
-  margin-top: -56.25rem; /* -900px ÷ 16 = -56.25rem */
-  font-size: 2.5rem; /* 40px ÷ 16 = 2.5rem */
+  text-align: center;
+  margin-top: 6rem;  /* enough space to clear fixed header */
+  font-size: 2.5rem;
 }
+
 
 .card {
-  position: absolute;
-  width: 30em; /* stays the same, relative to font-size */
-  height: 40em; /* stays the same */
+  position: relative; /* or remove position */
+  width: 30em;
+  height: 40em;
   background: #171717;
   transition: 1s ease-in-out;
-
-  /* clip-path polygon needs px converted to rem */
   clip-path: polygon(
-    1.875rem 0%,       /* 30px ÷ 16 */
+    1.875rem 0%,
     100% 0,
-    100% calc(100% - 1.875rem),  /* 30px */
-    calc(100% - 1.875rem) 100%,  /* 30px */
+    100% calc(100% - 1.875rem),
+    calc(100% - 1.875rem) 100%,
     0 100%,
-    0% 1.875rem        /* 30px */
+    0% 1.875rem
   );
-
-  border-top-right-radius: 1.25rem;  /* 20px ÷ 16 */
-  border-bottom-left-radius: 1.25rem; /* 20px ÷ 16 */
+  border-top-right-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
   display: flex;
   flex-direction: column;
-  margin: 0 auto; /* Center horizontally */
+  margin: 2rem auto 0 auto; /* margin top to clear header + center horizontally */
+  box-sizing: border-box;
 }
+
 
 
 .card span {
