@@ -8,13 +8,10 @@ body {
 
 .container {
   display: flex;
-  flex-wrap: wrap; /* Prevent overflow when zooming */
-  justify-content: center;
-  align-items: flex-start;
-  min-height: 100vh;
+  flex-direction: column; /* Stack card above buttons */
+  align-items: center;    /* Optional: center them horizontally */
+  gap: 1rem;              /* Space between card and buttons */
   padding: 1rem;
-  gap: 1rem;
-  box-sizing: border-box;
 }
 
 .radio-wrapper {
