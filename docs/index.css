@@ -235,6 +235,17 @@ body {
   display: none;
 }
 
+.about-me-wrapper {
+  position: absolute;  /* absolutely position this container */
+  top: 5rem;           /* adjust as needed */
+  left: 50%;           /* center horizontally */
+  transform: translateX(-50%); /* center precisely by shifting left 50% of own width */
+  width: 30rem;        /* fixed or relative width */
+  /* optional styles */
+  z-index: 10;         /* keep it above other content */
+}
+
+
 
 .title {
   color: white;
