@@ -31,6 +31,31 @@ body {
   flex-direction: column;
 }
 
+.title {
+  color: white;
+  text-align: center;
+  margin: 2rem auto 1rem auto; /* top & bottom margin */
+  font-size: 2rem;
+  max-width: 20rem; /* same as card width */
+  width: 90vw;      /* responsive width */
+}
+
+.card {
+  max-width: 90vw;
+  width: 20rem;
+  height: auto;
+  background: #171717;
+  transition: 0.5s ease-in-out;
+  clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;  /* center horizontally */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
 .radio-wrapper {
   position: relative;
   height: 3rem;
@@ -167,30 +192,7 @@ body {
   display: none;
 }
 
-.title {
-  color: white;
-  text-align: center;
-  margin: 2rem auto 1rem auto; /* top & bottom margin */
-  font-size: 2rem;
-  max-width: 20rem; /* same as card width */
-  width: 90vw;      /* responsive width */
-}
 
-.card {
-  max-width: 90vw;
-  width: 20rem;
-  height: auto;
-  background: #171717;
-  transition: 0.5s ease-in-out;
-  clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;  /* center horizontally */
-  padding: 1rem;
-  box-sizing: border-box;
-}
 
 .card span,
 .card .info {
