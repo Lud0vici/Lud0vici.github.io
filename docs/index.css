@@ -18,7 +18,14 @@ body {
   align-items: center;
 }
 
+
 .button-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.about-me-box {
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
