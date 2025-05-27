@@ -28,7 +28,7 @@ body {
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
-  min-height: 50vh
+  flex-direction: column;
 }
 
 .radio-wrapper {
