@@ -239,7 +239,6 @@ body {
 
 
 .title {
-  position: absolute;
   color: white;
   text-align: center; /* Center the text horizontally */
   margin-top: -56.25rem; /* -900px ÷ 16 = -56.25rem */
@@ -247,7 +246,6 @@ body {
 }
 
 .card {
-  position: absolute;
   width: 30em; /* stays the same, relative to font-size */
   height: 40em; /* stays the same */
   background: #171717;
