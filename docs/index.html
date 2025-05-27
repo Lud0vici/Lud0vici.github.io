@@ -5,6 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" type="text/css" href="index.css" />
   <script src="./index.js"></script>
+
+  <style>
+    /* Paste this CSS in your index.css or here */
+    .container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: black; /* match your design */
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 1rem 0;
+      z-index: 1000;
+    }
+
+    .title,
+    .card {
+      margin-top: 100px; /* push content below fixed header */
+    }
+
+    .title {
+      color: white;
+      font-size: 3rem;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .card {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #171717;
+      border-radius: 1.25rem;
+      padding: 1rem;
+      color: white;
+      box-sizing: border-box;
+    }
+
+    /* Optional: style the profile pic */
+    .profile_pic {
+      width: 100%;
+      max-width: 200px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+  </style>
 </head>
 
 <body>
