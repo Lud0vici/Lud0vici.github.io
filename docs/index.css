@@ -8,10 +8,13 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column; /* Stack card above buttons */
-  align-items: center;    /* Optional: center them horizontally */
-  gap: 1rem;              /* Space between card and buttons */
+  flex-wrap: wrap; /* Prevent overflow when zooming */
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
   padding: 1rem;
+  gap: 1rem;
+  box-sizing: border-box;
 }
 
 .radio-wrapper {
@@ -158,19 +161,11 @@ body {
 }
 
 .card {
-  max-width: 90vw;
-  width: 20rem;
-  height: auto;
-  background: #171717;
-  transition: 0.5s ease-in-out;
-  clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
+  z-index: 1;        /* Only needed if something was layered wrong */
+  background: white; /* Ensure it's not transparent */
   padding: 1rem;
-  box-sizing: border-box;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card span,
