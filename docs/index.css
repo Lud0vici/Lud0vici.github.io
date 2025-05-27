@@ -170,8 +170,10 @@ body {
 .title {
   color: white;
   text-align: center;
-  margin: 2rem auto;
+  margin: 2rem auto 1rem auto; /* top & bottom margin */
   font-size: 2rem;
+  max-width: 20rem; /* same as card width */
+  width: 90vw;      /* responsive width */
 }
 
 .card {
@@ -185,7 +187,7 @@ body {
   border-bottom-left-radius: 20px;
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 0 auto;  /* center horizontally */
   padding: 1rem;
   box-sizing: border-box;
 }
