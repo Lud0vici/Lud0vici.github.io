@@ -235,19 +235,11 @@ body {
   display: none;
 }
 
-.about-me-wrapper {
-  position: absolute;  /* absolutely position this container */
-  top: 5rem;           /* adjust as needed */
-  left: 50%;           /* center horizontally */
-  transform: translateX(-50%); /* center precisely by shifting left 50% of own width */
-  width: 30rem;        /* fixed or relative width */
-  /* optional styles */
-  z-index: 10;         /* keep it above other content */
-}
 
 
 
 .title {
+  position: absolute;
   color: white;
   text-align: center; /* Center the text horizontally */
   margin-top: -56.25rem; /* -900px ÷ 16 = -56.25rem */
@@ -255,6 +247,7 @@ body {
 }
 
 .card {
+  position: absolute;
   width: 30em; /* stays the same, relative to font-size */
   height: 40em; /* stays the same */
   background: #171717;
