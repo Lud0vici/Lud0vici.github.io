@@ -23,6 +23,7 @@ body {
 
 .btn:hover {
   background-color: #566e7c;
+  text-decoration: none;
 }
 
 /* Keep text white for all link states */
