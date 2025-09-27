@@ -1,0 +1,36 @@
+body {
+  background-color: #b8c4aa;  /* dark gray/black background */
+  color: #000000;             /* optional: default text color */
+  font-family: Arial, sans-serif; /* optional: change font */
+  margin: 0;
+  padding: 0;
+}
+
+
+.btn {
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 12px 24px;       /* vertical and horizontal padding */
+  margin: 10px 5px;          /* spacing between buttons */
+  min-width: 100px;          /* ensures all buttons have at least this width */
+  text-align: center;         /* center the text */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #566e7c;
+}
+
+/* Keep text white for all link states */
+.btn:link,
+.btn:visited,
+.btn:hover,
+.btn:active {
+  color: #ffffff;
+}
+
+
