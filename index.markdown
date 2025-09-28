@@ -9,7 +9,9 @@ title: "Home"
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
 <div style="text-align: center; margin-top: 50px;">
-  <img src="/assets/images/me.jpg" alt="Louis Zeng" style="width:200px; border-radius:0%;">
+  <img src="/assets/images/me1.jpg" alt="Louis Zeng" style="width:240px; border-radius:0%;">  
+  <img src="/assets/images/me3.jpg" alt="Louis Zeng" style="width:240px; border-radius:0%;">
+  <img src="/assets/images/me2.jpg" alt="Louis Zeng" style="width:240px; border-radius:0%;">
   
   <br>
   <br>
