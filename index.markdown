@@ -18,7 +18,7 @@ title: "Home"
   <h1> Hi, I’m Louis 👋</h1>
 
   <p>Computer Science graduate. Technology enthusiast. Cyberpunk dreamer.<br>
-Explore my background and projects below..</p>
+Explore my background and projects below.</p>
 
   <div style="margin-top: 20px;">
     <a href="/about" class="btn">About Me</a>
