@@ -16,7 +16,7 @@ body {
   font-weight: bold;
   padding: 12px 24px;       /* vertical and horizontal padding */
   margin: 10px 5px;          /* spacing between buttons */
-  min-width: 100px;          /* ensures all buttons have at least this width */
+  min-width: 150px;          /* ensures all buttons have at least this width */
   text-align: center;         /* center the text */
   transition: background-color 0.3s ease, transform 0.2s ease;
 }

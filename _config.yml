@@ -22,7 +22,7 @@ title: Louis Zeng
 email: zenglouis9@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Louis Zeng is a Computer Science graduate fascinated by technology and cyberpunk aesthetics.
-  Check out his projects and explore his creative approach to programming and design.
+  Check out his projects and explore his creative approach to programming and design, as well as his current interests.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Louiszeng3

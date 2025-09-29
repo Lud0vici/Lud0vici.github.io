@@ -18,12 +18,14 @@ title: "Home"
   <h1> Hi, I’m Louis 👋</h1>
 
   <p>Computer Science graduate. Technology enthusiast. Cyberpunk dreamer.<br>
-Explore my background and projects below.</p>
+Explore my background, projects, and current interests below.</p>
 
   <div style="margin-top: 20px;">
     <a href="/about" class="btn">About Me</a>
     <br>
     <a href="/projects" class="btn">Projects</a>
+    <br>
+    <a href="/current_interests" class="btn">Current Interests</a>
     <br>
     <a href="/assets/images/Zeng, Louis Resume 2025.pdf" class="btn" target="_blank">Resume</a>
   </div>
